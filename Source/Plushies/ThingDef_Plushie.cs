@@ -10,5 +10,10 @@ namespace Plushies
 {
     class ThingDef_Plushie : ThingDef
     {
+        public override void PostLoad()
+        {
+            base.PostLoad();
+            Log.Message("Yayy plushie code loaded such!");
+        }
     }
 }
