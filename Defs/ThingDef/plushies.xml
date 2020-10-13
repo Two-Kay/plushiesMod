@@ -36,7 +36,7 @@
 	  
 	  <MaxHitPoints>90</MaxHitPoints>
       <Mass>2</Mass>
-      <Beauty>30</Beauty>
+      <Beauty>50</Beauty>
       <WorkToMake>10000</WorkToMake>
 	  
     </statBases>
@@ -46,7 +46,7 @@
       </li>
       <li Class="CompProperties_Art">
         <nameMaker>NamerArtSculpture</nameMaker>
-        <descriptionMaker>ArtDescription_Sculpture</descriptionMaker>
+        <descriptionMaker>ArtDescription_Plushie</descriptionMaker>
         <canBeEnjoyedAsArt>true</canBeEnjoyedAsArt>
       </li>
       <li Class="CompProperties_MeditationFocus">

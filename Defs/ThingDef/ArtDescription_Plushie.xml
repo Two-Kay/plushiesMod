@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+<RulePackDef>
+    <defName>ArtDescription_Plushie</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>physical_description_root->This plushie [depicts] [image]. [desc_sentence_group]</li>
+        <li>physical_description_root->This plushie bears a [depiction] of [image]. [desc_sentence_group]</li>
+        <li>physical_description_root->On this plushie is a [depiction] of [image]. [desc_sentence_group]</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+</Defs>
