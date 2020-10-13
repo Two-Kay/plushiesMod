@@ -6,7 +6,177 @@
     <rulePack>
       <rulesStrings>
 		
-		<li>physical_description_root->This [cute_adjective] plushie is a [depiction] of [animal]. [desc_sentence_group]</li>
+		<li>physical_description_root->This [cute_adjective] plushie is a [plushie_depiction] of [animal]. [plushie_description]</li>
+		<li>physical_description_root->This [cute_adjective] plushie is a [plushie_depiction] of [PAWN_NameDef]. [plushie_description]</li>
+		
+		<!--=== Descriptions ===-->
+		
+		
+		
+		<!--=== Sentence structures ===-->
+		
+		<li>plushie_description->[texture_element] [pose_element] [misc_element], [trans_sentence] [comparsion_element] [body_element] Isn't it [end_sentence]</li>
+		<li>plushie_description->[pose_element] [color_element], you can see how [comparsion_element] [misc_element], [end_sentence]</li>
+		<li>plushie_description->[body_element] [pose_element] [misc_element], [end_sentence]</li>
+		<li>plushie_description->[texture_element] [misc_element]. [pose_element] It's a little [neutral_mood], [trans_sentence] [end_sentence]</li>
+		<li>plushie_description->[texture_element] [pose_element] [body_element] Surely [end_sentence]</li>
+		<li>plushie_description->[body_element] [texture_element] [pose_element]</li>
+		
+		
+		<!--=== Subsentences ===-->
+		
+		<li>texture_element->It's [texture_adjective] [texture_verb] in [texture_noun].</li>
+		<li>texture_element->It has a [cute_adjective] [body_part] that's fur-like.</li>
+		<li>texture_element->You can clearly feel its [texture_noun] [body_part].</li>
+		<li>texture_element->The plushie is soft and fluffy.</li>
+		<li>pose_element->You can see it [position_verb]!</li>
+		<li>pose_element->You can clearly see it [position_verb].</li>
+		<li>pose_element->You can spot how it [position_verb]s.</li>
+		<li>pose_element->It's waving its arms.</li>
+		<li>pose_element->It's nodding with its head.</li>
+		<li>pose_element->You can see [beauty_adjective] pose.</li>
+		<li>pose_element->It makes a [beauty_adjective] pose!</li>
+		<li>pose_element->It gives off a [cute_adjective] pose!</li>
+		<li>pose_element->It's beckoning you.</li>
+		<li>pose_element->It wants to hug you!</li>
+		<li>pose_element->It wants to embrace you.</li>
+		<li>pose_element->It's smiling at you.</li>
+		<li>pose_element->You can see [beauty_adjective] smile on its face!</li>
+		<li>pose_element->You can see a wide smile on its face!</li>
+		<li>pose_element->It looks like it's laughing!</li>
+		<li>body_element->It has a [body_part] that resembles the one of [PAWN_NameDef].</li>
+		<li>body_element->It has a [body_part_plural] that resemble the one of [PAWN_NameDef].</li>
+		<li>body_element->It has a [body_part] that resembles the one of a [Animal].</li>
+		<li>body_element->It has a [body_part_plural] that resemble the one of [Animal]s.</li>
+		<li>body_element->It has a [Animal]'s [body_part] which makes for [beauty_adjective] composition.</li>
+		<li>body_element->It has a [Animal]'s [body_part] that makes for [beauty_adjective] combination.</li>
+		<li>body_element->It has [Animal]'s [body_part_plural] that makes for [beauty_adjective] composition.</li>
+		<li>body_element->It's [body_part] reminds one of a [Vegetable].</li>
+		<li>body_element->It has [Animal]'s [body_part_plural] which makes for [beauty_adjective] combination.</li>
+		<li>color_element->The [color] [body_part] makes it [beauty_adjective] plushie</li>
+		<li>color_element->The [color] [body_part] makes it quite [cute_adjective]</li>
+		<li>color_element->The [color] [body_part_plural] make it quite [beauty_adjective] plushie</li>
+		<li>color_element->The [color] [body_part_plural] make it especially [cute_adjective]</li>
+		<li>misc_element->The plushie makes [beauty_adjective] appearance</li>
+		<li>misc_element->The plushie makes a truly [cute_adjective] appearance</li>
+		<li>misc_element->The [cute_adjective] elements make it especially [beauty_adjective_solo]</li>
+		<li>misc_element->It seems a little [neutral_mood]</li>
+		<li>misc_element->It's quite [positive_mood]</li>
+		<li>comparsion_element->it reminds one a little of [Character].</li>
+		<li>comparsion_element->it truly resembles a [Community] being!</li>
+		<li>comparsion_element->it's like it just stood on [TerrainFeature].</li>
+		<li>end_sentence->so [beauty_adjective_solo].</li>
+		<li>end_sentence->so [cute_adjective]!</li>
+		<li>end_sentence->so very [cute_adjective]!</li>
+		<li>end_sentence->the [cute_superlative]!</li>
+		<li>end_sentence->the [cute_superlative] being in the world!</li>
+		<li>end_sentence->the [cute_superlative] being in the universe!</li>
+		
+		<!--=== Sentence transitionings ===-->
+		
+		<li>trans_sentence->however</li>
+		<li>trans_sentence->though</li>
+		<li>trans_sentence->although</li>
+		<li>trans_sentence->however</li>
+		
+		<!--=== Moods ===-->
+		
+		<li>positive_mood->happy</li>
+		<li>positive_mood->joyful</li>
+		<li>positive_mood->content</li>
+		
+		<li>neutral_mood->sleepy</li>
+		<li>neutral_mood->relaxed</li>
+		<li>neutral_mood->confused</li>
+		
+		<li>moods->[neutral_mood]</li>
+		<li>moods->[positive_mood]</li>
+		
+		<!--=== Positions ===-->
+		
+		<li>position_verb->sit</li>
+		<li>position_verb->stand</li>
+		<li>position_verb->lean</li>
+		<li>position_verb->float</li>
+		
+		<!--=== Texture related ===-->
+		
+		<li>texture_adjective->mildly</li>
+		<li>texture_adjective->generously</li>
+		<li>texture_adjective->wildy</li>
+		<li>texture_adjective->widely</li>
+		<li>texture_adjective->finely</li>
+		<li>texture_verb->sprinkled</li>
+		<li>texture_verb->patched</li>
+		<li>texture_verb->tainted</li>
+		<li>texture_verb->blobbed</li>
+		<li>texture_verb->splashed</li>
+		<li>texture_noun->[color]</li>
+		<li>texture_noun->[color] foam</li>
+		<li>texture_noun->[color] fur</li>
+		<li>texture_noun->foam</li>
+		<li>texture_noun->fur</li>
+		
+		<!--=== Plushie colors ===-->
+		
+		<li>color->red</li>
+		<li>color->yellow</li>
+		<li>color->blue</li>
+		<li>color->white</li>
+		<li>color->black</li>
+		<li>color->green</li>
+		<li>color->teal</li>
+		<li>color->purple</li>
+		<li>color->pink</li>
+		<li>color->orange</li>
+		<li>color->brown</li>
+		<li>color->violet</li>
+		<li>color->turquoise</li>
+		<li>color->silver</li>
+		<li>color->gold</li>
+		
+		<!--=== Body parts ===-->
+		
+		<li>body_part_plural->eyes</li>
+		<li>body_part_plural->legs</li>
+		<li>body_part_plural->ears</li>
+		<li>body_part_plural->teeth</li>
+		<li>body_part->belly</li>
+		<li>body_part->mouth</li>
+		<li>body_part->nose</li>
+		<li>body_part->head</li>
+		
+		
+		<!--=== Beauty_Adjective ===-->
+		
+		<li>beauty_adjective->a beautiful</li>
+		<li>beauty_adjective->a gorgeous</li>
+		<li>beauty_adjective->a fancy</li>
+		<li>beauty_adjective->a pretty</li>
+		<li>beauty_adjective->a delightful</li>
+		<li>beauty_adjective->a glorius</li>
+		<li>beauty_adjective->an elegant</li>
+		<li>beauty_adjective->an impressive</li>
+		<li>beauty_adjective->a stunning</li>
+		<li>beauty_adjective->a splendid</li>
+		<li>beauty_adjective->a brilliant</li>
+		<li>beauty_adjective->an admirable</li>
+		<li>beauty_adjective->a magnificent</li>
+		<li>beauty_adjective->a lovely</li>
+		<li>beauty_adjective->a charming</li>
+		<li>beauty_adjective->a dazzling</li>
+		<li>beauty_adjective->a marvelous</li>
+		<li>beauty_adjective->a neat</li>
+		
+		<li>beauty_adjective_solo->neat</li>
+		<li>beauty_adjective_solo->pretty</li>
+		<li>beauty_adjective_solo->fancy</li>
+		<li>beauty_adjective_solo->beautiful</li>
+		<li>beauty_adjective_solo->delightful</li>
+		<li>beauty_adjective_solo->admirable</li>
+		<li>beauty_adjective_solo->charming</li>
+		<li>beauty_adjective_solo->gorgeous</li>
+		
 		
 		<!--=== Cute Adjectives! ===-->
 		
@@ -21,6 +191,17 @@
 		<li>cute_adjective->charming</li>
 		<li>cute_adjective->precious</li>
 		<li>cute_adjective->lovely</li>
+		<li>cute_adjective->cheerful</li>
+		
+		<li>cute_superlative->cutest</li>
+		<li>cute_superlative->most adorable</li>
+		<li>cute_superlative->fluffiest</li>
+		<li>cute_superlative->most charming</li>
+		<li>cute_superlative->most precious</li>
+		<li>cute_superlative->loveliest</li>
+		<li>cute_superlative->most graceful</li>
+		<li>cute_superlative->jolliest</li>
+		<li>cute_superlative->most cheerful</li>
 		
 		<!--=== Animal plushies ===-->
 		
@@ -80,6 +261,13 @@
 		<li>small_adjective->miniature</li>
 		<li>small_adjective->young</li>
 		<li>small_adjective->small</li>
+		
+		<!--=== Plushie depictions ===-->
+		
+		<li>plushie_depiction->craft</li>
+		<li>plushie_depiction->depiction</li>
+		<li>plushie_depiction->handcraft</li>
+		<li>plushie_depiction->portrayal</li>
 		
       </rulesStrings>
     </rulePack>
