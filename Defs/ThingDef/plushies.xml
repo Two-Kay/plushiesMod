@@ -126,5 +126,16 @@
     </recipeMaker>
   </ThingDef>
   
-  
+  <ThoughtDef>
+    <defName>PlushieCuddle</defName>
+    <durationDays>1</durationDays>
+    <stackLimit>1</stackLimit>
+    <stages>
+      <li>
+        <label>cuddled cute plushie</label>
+        <description>What a fluffy and wholesome sleep!</description>
+        <baseMoodEffect>3</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
   </Defs>
