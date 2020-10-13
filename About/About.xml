@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Plushies</name>
+	<packageId>Twokay.Plushies.Specific</packageId>
+	<author>Twokay</author>
+	<supportedVersions><li>1.2</li></supportedVersions>
+	<description>V1.0
+    This mod adds the ability to craft cute plushies at the tailoring bench!
+		</description>
+</ModMetaData>
