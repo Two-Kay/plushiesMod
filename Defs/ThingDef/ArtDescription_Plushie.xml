@@ -5,9 +5,82 @@
     <defName>ArtDescription_Plushie</defName>
     <rulePack>
       <rulesStrings>
-        <li>physical_description_root->This plushie [depicts] [image]. [desc_sentence_group]</li>
-        <li>physical_description_root->This plushie bears a [depiction] of [image]. [desc_sentence_group]</li>
-        <li>physical_description_root->On this plushie is a [depiction] of [image]. [desc_sentence_group]</li>
+		
+		<li>physical_description_root->This [cute_adjective] plushie is a [depiction] of [animal]. [desc_sentence_group]</li>
+		
+		<!--=== Cute Adjectives! ===-->
+		
+		<li>cute_adjective->cute</li>
+		<li>cute_adjective->adorable</li>
+		<li>cute_adjective->fluffy</li>
+		<li>cute_adjective->jolly</li>
+		<li>cute_adjective->graceful</li>
+		<li>cute_adjective->dorky</li>
+		<li>cute_adjective->comely</li>
+		<li>cute_adjective->dainty</li>
+		<li>cute_adjective->charming</li>
+		<li>cute_adjective->precious</li>
+		<li>cute_adjective->lovely</li>
+		
+		<!--=== Animal plushies ===-->
+		
+		<li>animal->a chicken</li>
+		<li>animal->a pheasant</li>
+		<li>animal->a squirrel</li>
+		<li>animal->a snake</li>
+		<li>animal->a duck</li>
+		<li>animal->an emu</li>
+		<li>animal->a honking goose</li>
+		<li>animal->an iguana</li>
+		<li>animal->a turtle</li>
+		<li>animal->a turkey</li>
+		<li>animal->a [small_adjective] cow</li>
+		<li>animal->a [small_adjective] caribou</li>
+		<li>animal->a [small_adjective] camel</li>
+		<li>animal->a [small_adjective] elk</li>
+		<li>animal->a [small_adjective] yak</li>
+		<li>animal->a goat</li>
+		<li>animal->a mouse</li>
+		<li>animal->a [small_adjective] elephant</li>
+		<li>animal->an alpaca</li>
+		<li>animal->a [small_adjective] horse</li>
+		<li>animal->a [small_adjective] muffalo</li>
+		<li>animal->a [small_adjective] bison</li>
+		<li>animal->a fox</li>
+		<li>animal->a bunny</li>
+		<li>animal->a cat</li>
+		<li>animal->a boomrat</li>
+		<li>animal->a husky</li>
+		<li>animal->a labrador retriever</li>
+		<li>animal->an alphabeaver</li>
+		<li>animal->a boomalope</li>
+		<li>animal->a capybara</li>
+		<li>animal->a pig</li>
+		<li>animal->a [small_adjective] bear</li>
+		<li>animal->a sheep</li>
+		<li>animal->a spelopede</li>
+		<li>animal->a megascarab</li>
+		<li>animal->a monkey</li>
+		<li>animal->a [small_adjective] thrumbo</li>
+		<li>animal->a [small_adjective] megasloth</li>
+		<li>animal->a racoon</li>
+		<li>animal->a deer</li>
+		<li>animal->a wolf</li>
+		<li>animal->a [small_adjective] shark</li>
+		<li>animal->a [small_adjective] whale</li>
+		<li>animal->a [small_adjective] orca</li>
+		<li>animal->a dolphin</li>
+		<li>animal->a fish</li>
+		
+		<!--=== Small adjectives ===-->
+		
+		<li>small_adjective->small</li>
+		<li>small_adjective->tiny</li>
+		<li>small_adjective->baby</li>
+		<li>small_adjective->miniature</li>
+		<li>small_adjective->young</li>
+		<li>small_adjective->small</li>
+		
       </rulesStrings>
     </rulePack>
   </RulePackDef>
