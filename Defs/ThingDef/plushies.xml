@@ -107,6 +107,9 @@
         <li>HandTailoringBench</li>
       </recipeUsers>
       <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+	  <skillRequirements>
+        <Crafting>4</Crafting>
+      </skillRequirements>
       <workSkill>Artistic</workSkill>
       <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
       <effectWorking>Tailor</effectWorking>
