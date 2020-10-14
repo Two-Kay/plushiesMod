@@ -6,7 +6,7 @@
     <rulePack>
       <rulesStrings>
 		
-		<li>physical_description_root->This [cute_adjective] plushie is a [plushie_depiction] of [animal]. [plushie_description]</li>
+		<li>physical_description_root(p=4)->This [cute_adjective] plushie is a [plushie_depiction] of [animal]. [plushie_description]</li>
 		<li>physical_description_root->This [cute_adjective] plushie is a [plushie_depiction] of [PAWN_nameFull]. [plushie_description]</li>
 		
 		<!--=== Descriptions ===-->
@@ -18,9 +18,11 @@
 		<li>plushie_description->[texture_element] [pose_element] [misc_element], [trans_sentence] [comparsion_element] [body_element] Isn't it [end_sentence]</li>
 		<li>plushie_description->[pose_element] [color_element], you can see how [comparsion_element] [misc_element], [end_sentence]</li>
 		<li>plushie_description->[body_element] [pose_element] [misc_element], [end_sentence]</li>
-		<li>plushie_description->[texture_element] [misc_element]. [pose_element] It's a little [neutral_mood], [trans_sentence] [end_sentence]</li>
+		<li>plushie_description->[texture_element] [misc_element]. [pose_element] It's a little [neutral_mood], [trans_sentence] it's [end_sentence]</li>
 		<li>plushie_description->[texture_element] [pose_element] [body_element] Surely [end_sentence]</li>
 		<li>plushie_description->[body_element] [texture_element] [pose_element]</li>
+		<li>plushie_description->[texture_element] [pose_element] [cosplay_element], [trans_sentence] [comparsion_element]</li>
+		<li>plushie_description->[pose_element] [misc_element], [trans_sentence] [comparsion_element] [cosplay_element], [trans_sentence] it's [end_sentence]</li>
 		
 		
 		<!--=== Subsentences ===-->
@@ -51,8 +53,13 @@
 		<li>body_element->It has a [Animal]'s [body_part] which makes for [beauty_adjective] composition.</li>
 		<li>body_element->It has a [Animal]'s [body_part] that makes for [beauty_adjective] combination.</li>
 		<li>body_element->It has [Animal]'s [body_part_plural] that makes for [beauty_adjective] composition.</li>
-		<li>body_element->It's [body_part] reminds one of a [Vegetable].</li>
+		<li>body_element->Its [body_part] reminds one of a [Vegetable].</li>
 		<li>body_element->It has [Animal]'s [body_part_plural] which makes for [beauty_adjective] combination.</li>
+		<li>cosplay_element->It's attempting to be a [Character]</li>
+		<li>cosplay_element->It's trying its best to dress like a [Character] from a [Community]</li>
+		<li>cosplay_element->What a [cute_adjective] [Character]</li>
+		<li>cosplay_element->It seems like it's dreaming to be quite the crazy [Character] one day</li>
+		<li>cosplay_element->It's dressed like a [Character]</li>
 		<li>color_element->The [color] [body_part] makes it [beauty_adjective] plushie</li>
 		<li>color_element->The [color] [body_part] makes it quite [cute_adjective]</li>
 		<li>color_element->The [color] [body_part_plural] make it quite [beauty_adjective] plushie</li>
@@ -64,7 +71,7 @@
 		<li>misc_element->It's quite [positive_mood]</li>
 		<li>comparsion_element->it reminds one a little of [PAWN_nameFull].</li>
 		<li>comparsion_element->it truly resembles a [Community] being!</li>
-		<li>comparsion_element->it's like it just stood on [TerrainFeature].</li>
+		<li>comparsion_element->it's like it just stood on a [TerrainFeature].</li>
 		<li>end_sentence->so [beauty_adjective_solo].</li>
 		<li>end_sentence->so [cute_adjective]!</li>
 		<li>end_sentence->so very [cute_adjective]!</li>
