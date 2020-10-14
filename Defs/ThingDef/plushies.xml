@@ -9,7 +9,7 @@
     <description>A cute little plushie!</description>
     <graphicData>
       <graphicClass>Graphic_Random</graphicClass>
-      <texPath>Things/Building/Art/SculptureSmall</texPath>
+      <texPath>Things/plushies</texPath>
     </graphicData>
     <fillPercent>0.35</fillPercent>
     <rotatable>false</rotatable>
@@ -36,7 +36,7 @@
 	  
 	  <MaxHitPoints>90</MaxHitPoints>
       <Mass>2</Mass>
-      <Beauty>50</Beauty>
+      <Beauty>20</Beauty>
       <WorkToMake>10000</WorkToMake>
 	  
     </statBases>
