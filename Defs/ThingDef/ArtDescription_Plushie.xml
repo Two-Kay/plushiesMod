@@ -7,7 +7,7 @@
       <rulesStrings>
 		
 		<li>physical_description_root->This [cute_adjective] plushie is a [plushie_depiction] of [animal]. [plushie_description]</li>
-		<li>physical_description_root->This [cute_adjective] plushie is a [plushie_depiction] of [PAWN_NameDef]. [plushie_description]</li>
+		<li>physical_description_root->This [cute_adjective] plushie is a [plushie_depiction] of [PAWN_nameFull]. [plushie_description]</li>
 		
 		<!--=== Descriptions ===-->
 		
@@ -44,8 +44,8 @@
 		<li>pose_element->You can see [beauty_adjective] smile on its face!</li>
 		<li>pose_element->You can see a wide smile on its face!</li>
 		<li>pose_element->It looks like it's laughing!</li>
-		<li>body_element->It has a [body_part] that resembles the one of [PAWN_NameDef].</li>
-		<li>body_element->It has a [body_part_plural] that resemble the one of [PAWN_NameDef].</li>
+		<li>body_element->It has a [body_part] that resembles the one of [PAWN_nameFull].</li>
+		<li>body_element->It has a [body_part_plural] that resemble the one of [PAWN_nameFull].</li>
 		<li>body_element->It has a [body_part] that resembles the one of a [Animal].</li>
 		<li>body_element->It has a [body_part_plural] that resemble the one of [Animal]s.</li>
 		<li>body_element->It has a [Animal]'s [body_part] which makes for [beauty_adjective] composition.</li>
@@ -62,7 +62,7 @@
 		<li>misc_element->The [cute_adjective] elements make it especially [beauty_adjective_solo]</li>
 		<li>misc_element->It seems a little [neutral_mood]</li>
 		<li>misc_element->It's quite [positive_mood]</li>
-		<li>comparsion_element->it reminds one a little of [Character].</li>
+		<li>comparsion_element->it reminds one a little of [PAWN_nameFull].</li>
 		<li>comparsion_element->it truly resembles a [Community] being!</li>
 		<li>comparsion_element->it's like it just stood on [TerrainFeature].</li>
 		<li>end_sentence->so [beauty_adjective_solo].</li>
