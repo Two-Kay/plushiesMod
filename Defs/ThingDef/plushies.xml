@@ -36,7 +36,7 @@
       <MaxHitPoints>90</MaxHitPoints>
       <Mass>2</Mass>
       <Beauty>20</Beauty>
-      <WorkToMake>10000</WorkToMake>
+      <WorkToMake>1000</WorkToMake>
 
     </statBases>
     <comps>
