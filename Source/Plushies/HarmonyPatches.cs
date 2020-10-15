@@ -19,6 +19,7 @@ namespace Plushies
     public static class PlushiesThoughtDefOf
     {
         public static ThoughtDef PlushieCuddle;
+        public static ThoughtDef PlushieCuddleKind;
 
         static PlushiesThoughtDefOf()
         {
@@ -48,7 +49,11 @@ namespace Plushies
             var roomThings = actor.GetRoom().ContainedAndAdjacentThings;
             var hasPlushie = roomThings.Any(thing => thing.def.defName == "Plushie");
             if (hasPlushie) {
-                actor.needs.mood.thoughts.memories.TryGainMemory(PlushiesThoughtDefOf.PlushieCuddle);
+                if (actor.story.traits.HasTrait(TraitDefOf.Kind)) {
+                    actor.needs.mood.thoughts.memories.TryGainMemory(PlushiesThoughtDefOf.PlushieCuddleKind);
+                } else {
+                    actor.needs.mood.thoughts.memories.TryGainMemory(PlushiesThoughtDefOf.PlushieCuddle);
+                }
             }
         }
     }
