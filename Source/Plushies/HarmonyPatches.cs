@@ -57,8 +57,9 @@ namespace Plushies
             if (actor.needs.mood == null)
                 return;
 
-            var roomThings = actor.GetRoom().ContainedAndAdjacentThings;
-            var hasPlushie = roomThings.Any(thing => thing.def.defName == "Plushie");
+            var bed = actor.CurrentBed();
+            var facilities = bed.GetComp<CompAffectedByFacilities>().LinkedFacilitiesListForReading;
+            var hasPlushie = facilities.Any(thing => thing.def.defName == "Plushie");
             if (hasPlushie) {
                 if (actor.story.traits.HasTrait(TraitDefOf.Kind)) {
                     actor.needs.mood.thoughts.memories.TryGainMemory(PlushiesThoughtDefOf.PlushieCuddleKind);
