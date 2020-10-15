@@ -133,11 +133,31 @@
     <defName>PlushieCuddle</defName>
     <durationDays>1</durationDays>
     <stackLimit>1</stackLimit>
+    <nullifyingTraits>
+      <li>Psychopath</li>
+    </nullifyingTraits>
     <stages>
       <li>
-        <label>cuddled cute plushie</label>
-        <description>What a fluffy and wholesome sleep!</description>
+        <label>cuddled plushie</label>
+        <description>Such a comforting softness.</description>
         <baseMoodEffect>3</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+    
+  <ThoughtDef>
+    <defName>PlushieCuddleKind</defName>
+    <durationDays>1</durationDays>
+    <stackLimit>1</stackLimit>
+    <requiredTraits>
+      <li>Kind</li>
+    </requiredTraits>
+    <stages>
+      <li>
+        <label>cuddled the cutest plushie</label>
+        <description>What a fluffy and wholesome sleep!</description>
+        <baseMoodEffect>5</baseMoodEffect>
       </li>
     </stages>
   </ThoughtDef>
