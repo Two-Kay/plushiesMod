@@ -1,6 +1,6 @@
 <Patch>
   <Operation Class="PatchOperationAdd">
-    <xpath>/Defs/ThingDef[@ParentName = "BedWithQualityBase"]/comps/li[@Class = "CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
+    <xpath>/Defs/ThingDef[contains(defName,'Bed')]/comps/li[@Class = "CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
     <value>
       <li>Plushie</li>
     </value>
