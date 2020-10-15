@@ -1,0 +1,8 @@
+<Patch>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[@ParentName = "BedWithQualityBase"]/comps/li[@Class = "CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
+    <value>
+      <li>Plushie</li>
+    </value>
+  </Operation>
+</Patch>
