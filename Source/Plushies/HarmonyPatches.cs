@@ -27,6 +27,17 @@ namespace Plushies
         }
     }
 
+    [DefOf]
+    public static class PlushiesRulePackDefOf
+    {
+        public static RulePackDef ArtDescription_Plushie;
+
+        static PlushiesRulePackDefOf()
+        {
+            DefOfHelper.EnsureInitializedInCtor(typeof(PlushiesRulePackDefOf));
+        }
+    }
+
     [StaticConstructorOnStartup]
     static class HarmonyPatches
     {
@@ -54,6 +65,18 @@ namespace Plushies
                 } else {
                     actor.needs.mood.thoughts.memories.TryGainMemory(PlushiesThoughtDefOf.PlushieCuddle);
                 }
+            }
+        }
+    }
+
+    [HarmonyPatch(typeof(TaleTextGenerator))]
+    [HarmonyPatch("GenerateTextFromTale")]
+    class RemoveTaleFromPlushies
+    {
+        static void Prefix(ref Tale tale, RulePackDef extraInclude)
+        {
+            if (extraInclude.defName == "ArtDescription_Plushie") {
+                tale = null;
             }
         }
     }
