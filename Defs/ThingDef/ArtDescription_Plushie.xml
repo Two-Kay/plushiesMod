@@ -110,12 +110,12 @@
 		
 		<li>texture_adjective->mildly</li>
 		<li>texture_adjective->generously</li>
-		<li>texture_adjective->wildy</li>
+		<li>texture_adjective->wildly</li>
 		<li>texture_adjective->widely</li>
 		<li>texture_adjective->finely</li>
 		<li>texture_verb->sprinkled</li>
 		<li>texture_verb->patched</li>
-		<li>texture_verb->tainted</li>
+		<li>texture_verb->tinted</li>
 		<li>texture_verb->blobbed</li>
 		<li>texture_verb->splashed</li>
 		<li>texture_noun->[color]</li>
@@ -161,7 +161,7 @@
 		<li>beauty_adjective->a fancy</li>
 		<li>beauty_adjective->a pretty</li>
 		<li>beauty_adjective->a delightful</li>
-		<li>beauty_adjective->a glorius</li>
+		<li>beauty_adjective->a glorious</li>
 		<li>beauty_adjective->an elegant</li>
 		<li>beauty_adjective->an impressive</li>
 		<li>beauty_adjective->a stunning</li>
