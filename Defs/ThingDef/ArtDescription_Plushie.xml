@@ -47,9 +47,9 @@
 		<li>pose_element->You can see a wide smile on its face!</li>
 		<li>pose_element->It looks like it's laughing!</li>
 		<li>body_element->It has a [body_part] that resembles the one of [PAWN_nameFull].</li>
-		<li>body_element->It has a [body_part_plural] that resemble the one of [PAWN_nameFull].</li>
+		<li>body_element->It has [body_part_plural] that resemble the one of [PAWN_nameFull].</li>
 		<li>body_element->It has a [body_part] that resembles the one of a [Animal].</li>
-		<li>body_element->It has a [body_part_plural] that resemble the one of [Animal]s.</li>
+		<li>body_element->It has [body_part_plural] that resemble the one of [Animal]s.</li>
 		<li>body_element->It has a [Animal]'s [body_part] which makes for [beauty_adjective] composition.</li>
 		<li>body_element->It has a [Animal]'s [body_part] that makes for [beauty_adjective] combination.</li>
 		<li>body_element->It has [Animal]'s [body_part_plural] that makes for [beauty_adjective] composition.</li>
@@ -276,6 +276,117 @@
 		<li>plushie_depiction->handcraft</li>
 		<li>plushie_depiction->portrayal</li>
 		
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+  
+  <RulePackDef>
+    <defName>Namer_Plushie</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_art_name->[royal_title] [plushie_name] [royal_preposition] [royal_house]</li>
+		<li>r_art_name->[plushie_name] [royal_preposition] [royal_house]</li>
+		<li>r_art_name->[royal_title] [plushie_name]</li>
+		<li>r_art_name->[title] [plushie_name]</li>
+		<li>r_art_name->[plushie_name]</li>
+		<li>r_art_name->[title] [plushie_name] [royal_preposition] [royal_house]</li>
+		
+		<!--=== Plushie names ===-->
+		
+		<li>plushie_name(p=6)->[cute_name]</li>
+		<li>plushie_name->[generic_name]</li>
+		<li>plushie_name->[not_name]</li>
+		
+		<li>cute_name->Snuggles</li>
+		<li>cute_name->Cuddles</li>
+		<li>cute_name->Fluffysnout</li>
+		<li>cute_name->Squirlytail</li>
+		<li>cute_name->Fluffers</li>
+		<li>cute_name->Twinklespice</li>
+		<li>cute_name->Sugars</li>
+		<li>cute_name->Dreamywubby</li>
+		<li>cute_name->Twinklytubs</li>
+		<li>cute_name->Twinklytubby</li>
+		<li>cute_name->Whirlynose</li>
+		<li>cute_name->Fluffypie</li>
+		<li>cute_name->Sugarpie</li>
+		<li>cute_name->Lemonpie</li>
+		<li>cute_name->Lemonpaw</li>
+		<li>cute_name->Sugarears</li>
+		<li>cute_name->Stellarsky</li>
+		<li>cute_name->Fluffytails</li>
+		<li>cute_name->Sprinklestar</li>
+		<li>cute_name->Pastelpie</li>
+		<li>cute_name->Pastelsky</li>
+		<li>cute_name->Lovelystar</li>
+		<li>cute_name->Blanketball</li>
+		<li>cute_name->Twinklepears</li>
+		
+		<li>generic_name->Teddies</li>
+		<li>generic_name->Ted</li>
+		<li>generic_name->Plushiebear</li>
+		<li>generic_name->Plushers</li>
+		<li>generic_name->Teddy</li>
+		
+		<li>not_name->Cute</li>
+		<li>not_name->Adorable</li>
+		<li>not_name->Jolly</li>
+		<li>not_name->Dorks</li>
+		<li>not_name->Precious</li>
+		
+		<!--=== Titles ===-->
+		
+		<li>title->Professor</li>
+		<li>title->Doctor</li>
+		<li>title->Detective</li>
+		<li>title->Officer</li>
+		<li>title->Mayor</li>
+		<li>title->President</li>
+		
+		<!--=== Royalty ===-->
+		<li>royal_preposition->von</li>
+		<li>royal_preposition->van</li>
+		<li>royal_preposition->de</li>
+		<li>royal_preposition->of</li>
+		
+		<li>royal_house->Fluffler</li>
+		<li>royal_house->Fluffel</li>
+		<li>royal_house->Fluffelsnoot</li>
+		<li>royal_house->Fluffelpuff</li>
+		<li>royal_house->Fluffelpaw</li>
+		<li>royal_house->Squishington</li>
+		<li>royal_house->Squigglyten</li>
+		<li>royal_house->Purrington</li>
+		<li>royal_house->Heartington</li>
+		<li>royal_house->Cinnomspice</li>
+		<li>royal_house->Cinnamouse</li>
+		<li>royal_house->Cutington</li>
+		<li>royal_house->Softpaw</li>
+		<li>royal_house->Snooting</li>
+		<li>royal_house->Furrington</li>
+		<li>royal_house->Fureplush</li>
+		<li>royal_house->Plushiwash</li>
+		<li>royal_house->Plushington</li>
+		<li>royal_house->Plushiepaw</li>
+		<li>royal_house->Fluffyear</li>
+		<li>royal_house->Sugarsweet</li>
+		<li>royal_house->Fluffywuff</li>
+		<li>royal_house->Cuddlington</li>
+		<li>royal_house->Cuddlyplush</li>
+		<li>royal_house->Cottonbutton</li>
+		<li>royal_house->Cottonfluff</li>
+		<li>royal_house->Cottonsoft</li>
+		<li>royal_house->Nappington</li>
+		
+		<li>royal_title->King</li>
+		<li>royal_title->Queen</li>
+		<li>royal_title(p=2)->Prince</li>
+		<li>royal_title(p=2)->Princess</li>
+		<li>royal_title->Duke</li>
+		<li>royal_title->Duchess</li>
+		<li>royal_title->Earl</li>
+		<li>royal_title->Countess</li>
+		<li>royal_title->Cinnabun</li>
       </rulesStrings>
     </rulePack>
   </RulePackDef>
