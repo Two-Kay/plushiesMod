@@ -42,10 +42,11 @@
 		<li>pose_element->It's beckoning you.</li>
 		<li>pose_element->It wants to hug you!</li>
 		<li>pose_element->It wants to embrace you.</li>
-		<li>pose_element->It's smiling at you.</li>
 		<li>pose_element->You can see a [beauty_adjective] smile on its face!</li>
 		<li>pose_element->You can see a wide smile on its face!</li>
 		<li>pose_element->It looks like it's laughing!</li>
+		<li>pose_element->It seems like it's [facial_expression] at you.</li>
+		<li>pose_element->You notice how it's [facial_expression] at you.</li>
 		<li>body_element->It has a [body_part] that resembles the one of [PAWN_nameFull].</li>
 		<li>body_element->It has [body_part_plural] that resemble the one of [PAWN_nameFull].</li>
 		<li>body_element->It has a [body_part] that resembles the one of a [Animal].</li>
@@ -107,6 +108,13 @@
 		<li>position_verb->stand</li>
 		<li>position_verb->lean</li>
 		<li>position_verb->float</li>
+		
+		<!--=== Facial expressions ===-->
+		
+		<li>facial_expression->looking</li>
+		<li>facial_expression->squinting</li>
+		<li>facial_expression->smiling</li>
+		<li>facial_expression->grimacing</li>
 		
 		<!--=== Texture related ===-->
 		
