@@ -147,7 +147,7 @@
       <li>
         <label>cuddled plushie</label>
         <description>Such a comforting softness.</description>
-        <baseMoodEffect>3</baseMoodEffect>
+        <baseMoodEffect>1</baseMoodEffect>
       </li>
     </stages>
   </ThoughtDef>
@@ -162,8 +162,8 @@
     <stages>
       <li>
         <label>cuddled the cutest plushie</label>
-        <description>What a fluffy and wholesome sleep!</description>
-        <baseMoodEffect>5</baseMoodEffect>
+        <description>How fluffy and wholesome!</description>
+        <baseMoodEffect>3</baseMoodEffect>
       </li>
     </stages>
   </ThoughtDef>
