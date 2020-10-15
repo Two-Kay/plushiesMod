@@ -44,7 +44,7 @@
         <compClass>CompQuality</compClass>
       </li>
       <li Class="CompProperties_Art">
-        <nameMaker>NamerArtSculpture</nameMaker>
+        <nameMaker>Namer_Plushie</nameMaker>
         <descriptionMaker>ArtDescription_Plushie</descriptionMaker>
         <canBeEnjoyedAsArt>true</canBeEnjoyedAsArt>
       </li>
