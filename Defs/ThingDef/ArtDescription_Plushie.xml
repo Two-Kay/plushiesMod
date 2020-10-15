@@ -36,43 +36,43 @@
 		<li>pose_element->You can spot how it [position_verb]s.</li>
 		<li>pose_element->It's waving its arms.</li>
 		<li>pose_element->It's nodding with its head.</li>
-		<li>pose_element->You can see [beauty_adjective] pose.</li>
+		<li>pose_element->You can see a [beauty_adjective] pose.</li>
 		<li>pose_element->It makes a [beauty_adjective] pose!</li>
 		<li>pose_element->It gives off a [cute_adjective] pose!</li>
 		<li>pose_element->It's beckoning you.</li>
 		<li>pose_element->It wants to hug you!</li>
 		<li>pose_element->It wants to embrace you.</li>
 		<li>pose_element->It's smiling at you.</li>
-		<li>pose_element->You can see [beauty_adjective] smile on its face!</li>
+		<li>pose_element->You can see a [beauty_adjective] smile on its face!</li>
 		<li>pose_element->You can see a wide smile on its face!</li>
 		<li>pose_element->It looks like it's laughing!</li>
 		<li>body_element->It has a [body_part] that resembles the one of [PAWN_nameFull].</li>
 		<li>body_element->It has [body_part_plural] that resemble the one of [PAWN_nameFull].</li>
 		<li>body_element->It has a [body_part] that resembles the one of a [Animal].</li>
 		<li>body_element->It has [body_part_plural] that resemble the one of [Animal]s.</li>
-		<li>body_element->It has a [Animal]'s [body_part] which makes for [beauty_adjective] composition.</li>
-		<li>body_element->It has a [Animal]'s [body_part] that makes for [beauty_adjective] combination.</li>
-		<li>body_element->It has [Animal]'s [body_part_plural] that makes for [beauty_adjective] composition.</li>
+		<li>body_element->It has a [Animal]'s [body_part] which makes for a [beauty_adjective] composition.</li>
+		<li>body_element->It has a [Animal]'s [body_part] that makes for a [beauty_adjective] combination.</li>
+		<li>body_element->It has [Animal]'s [body_part_plural] that makes for a [beauty_adjective] composition.</li>
 		<li>body_element->Its [body_part] reminds one of a [Vegetable].</li>
-		<li>body_element->It has [Animal]'s [body_part_plural] which makes for [beauty_adjective] combination.</li>
+		<li>body_element->It has [Animal]'s [body_part_plural] which makes for a [beauty_adjective] combination.</li>
 		<li>cosplay_element->It's attempting to be a [Character]</li>
 		<li>cosplay_element->It's trying its best to dress like a [Character] from a [Community]</li>
 		<li>cosplay_element->What a [cute_adjective] [Character]</li>
 		<li>cosplay_element->It seems like it's dreaming to be quite the crazy [Character] one day</li>
 		<li>cosplay_element->It's dressed like a [Character]</li>
-		<li>color_element->The [color] [body_part] makes it [beauty_adjective] plushie</li>
+		<li>color_element->The [color] [body_part] makes it a [beauty_adjective] plushie</li>
 		<li>color_element->The [color] [body_part] makes it quite [cute_adjective]</li>
-		<li>color_element->The [color] [body_part_plural] make it quite [beauty_adjective] plushie</li>
+		<li>color_element->The [color] [body_part_plural] make it quite a [beauty_adjective] plushie</li>
 		<li>color_element->The [color] [body_part_plural] make it especially [cute_adjective]</li>
-		<li>misc_element->The plushie makes [beauty_adjective] appearance</li>
+		<li>misc_element->The plushie makes a [beauty_adjective] appearance</li>
 		<li>misc_element->The plushie makes a truly [cute_adjective] appearance</li>
-		<li>misc_element->The [cute_adjective] elements make it especially [beauty_adjective_solo]</li>
+		<li>misc_element->The [cute_adjective] elements make it especially [beauty_adjective]</li>
 		<li>misc_element->It seems a little [neutral_mood]</li>
 		<li>misc_element->It's quite [positive_mood]</li>
 		<li>comparsion_element->it reminds one a little of [PAWN_nameFull].</li>
 		<li>comparsion_element->it truly resembles a [Community] being!</li>
 		<li>comparsion_element->it's like it just stood on a [TerrainFeature].</li>
-		<li>end_sentence->so [beauty_adjective_solo].</li>
+		<li>end_sentence->so [beauty_adjective].</li>
 		<li>end_sentence->so [cute_adjective]!</li>
 		<li>end_sentence->so very [cute_adjective]!</li>
 		<li>end_sentence->the [cute_superlative]!</li>
@@ -83,18 +83,20 @@
 		
 		<li>trans_sentence->however</li>
 		<li>trans_sentence->though</li>
-		<li>trans_sentence->although</li>
-		<li>trans_sentence->however</li>
+		<li>trans_sentence->after all</li>
+		<li>trans_sentence->but</li>
 		
 		<!--=== Moods ===-->
 		
 		<li>positive_mood->happy</li>
 		<li>positive_mood->joyful</li>
 		<li>positive_mood->content</li>
+		<li>positive_mood->delighted</li>
 		
 		<li>neutral_mood->sleepy</li>
-		<li>neutral_mood->relaxed</li>
+		<li>neutral_mood->bored</li>
 		<li>neutral_mood->confused</li>
+		<li>neutral_mood->cranky</li>
 		
 		<li>moods->[neutral_mood]</li>
 		<li>moods->[positive_mood]</li>
@@ -111,7 +113,7 @@
 		<li>texture_adjective->mildly</li>
 		<li>texture_adjective->generously</li>
 		<li>texture_adjective->wildly</li>
-		<li>texture_adjective->widely</li>
+		<li>texture_adjective->crazily</li>
 		<li>texture_adjective->finely</li>
 		<li>texture_verb->sprinkled</li>
 		<li>texture_verb->patched</li>
@@ -119,9 +121,9 @@
 		<li>texture_verb->blobbed</li>
 		<li>texture_verb->splashed</li>
 		<li>texture_noun->[color]</li>
-		<li>texture_noun->[color] foam</li>
+		<li>texture_noun->[color] cotton</li>
 		<li>texture_noun->[color] fur</li>
-		<li>texture_noun->foam</li>
+		<li>texture_noun->cotton</li>
 		<li>texture_noun->fur</li>
 		
 		<!--=== Plushie colors ===-->
@@ -156,34 +158,24 @@
 		
 		<!--=== Beauty_Adjective ===-->
 		
-		<li>beauty_adjective->a beautiful</li>
-		<li>beauty_adjective->a gorgeous</li>
-		<li>beauty_adjective->a fancy</li>
-		<li>beauty_adjective->a pretty</li>
-		<li>beauty_adjective->a delightful</li>
-		<li>beauty_adjective->a glorious</li>
-		<li>beauty_adjective->an elegant</li>
-		<li>beauty_adjective->an impressive</li>
-		<li>beauty_adjective->a stunning</li>
-		<li>beauty_adjective->a splendid</li>
-		<li>beauty_adjective->a brilliant</li>
-		<li>beauty_adjective->an admirable</li>
-		<li>beauty_adjective->a magnificent</li>
-		<li>beauty_adjective->a lovely</li>
-		<li>beauty_adjective->a charming</li>
-		<li>beauty_adjective->a dazzling</li>
-		<li>beauty_adjective->a marvelous</li>
-		<li>beauty_adjective->a neat</li>
-		
-		<li>beauty_adjective_solo->neat</li>
-		<li>beauty_adjective_solo->pretty</li>
-		<li>beauty_adjective_solo->fancy</li>
-		<li>beauty_adjective_solo->beautiful</li>
-		<li>beauty_adjective_solo->delightful</li>
-		<li>beauty_adjective_solo->admirable</li>
-		<li>beauty_adjective_solo->charming</li>
-		<li>beauty_adjective_solo->gorgeous</li>
-		
+		<li>beauty_adjective->beautiful</li>
+		<li>beauty_adjective->gorgeous</li>
+		<li>beauty_adjective->fancy</li>
+		<li>beauty_adjective->pretty</li>
+		<li>beauty_adjective->delightful</li>
+		<li>beauty_adjective->glorious</li>
+		<li>beauty_adjective->elegant</li>
+		<li>beauty_adjective->impressive</li>
+		<li>beauty_adjective->stunning</li>
+		<li>beauty_adjective->splendid</li>
+		<li>beauty_adjective->brilliant</li>
+		<li>beauty_adjective->admirable</li>
+		<li>beauty_adjective->magnificent</li>
+		<li>beauty_adjective->lovely</li>
+		<li>beauty_adjective->charming</li>
+		<li>beauty_adjective->dazzling</li>
+		<li>beauty_adjective->marvelous</li>
+		<li>beauty_adjective->neat</li>
 		
 		<!--=== Cute Adjectives! ===-->
 		
