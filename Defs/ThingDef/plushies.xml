@@ -11,12 +11,10 @@
     </graphicData>
     <fillPercent>0.35</fillPercent>
     <rotatable>false</rotatable>
-
     <costStuffCount>20</costStuffCount>
     <stuffCategories>
       <li>Fabric</li>
     </stuffCategories>
-
     <altitudeLayer>Building</altitudeLayer>
     <passability>PassThroughOnly</passability>
     <pathCost>50</pathCost>
@@ -28,26 +26,27 @@
     <thingSetMakerTags>
       <li>RewardStandardLowFreq</li>
     </thingSetMakerTags>
+	
     <statBases>
       <Flammability>1.0</Flammability>
       <SellPriceFactor>1.10</SellPriceFactor>
       <MeditationFocusStrength>0.0</MeditationFocusStrength>
-
       <MaxHitPoints>90</MaxHitPoints>
-      <Mass>2</Mass>
+      <Mass>0.8</Mass>
       <Beauty>20</Beauty>
       <WorkToMake>10000</WorkToMake>
-
     </statBases>
+	
     <comps>
       <li>
         <compClass>CompQuality</compClass>
       </li>
+	  
       <li Class="CompProperties_Art">
         <nameMaker>Namer_Plushie</nameMaker>
         <descriptionMaker>ArtDescription_Plushie</descriptionMaker>
-        <canBeEnjoyedAsArt>false</canBeEnjoyedAsArt>
       </li>
+	  
       <li Class="CompProperties_MeditationFocus">
         <statDef>MeditationFocusStrength</statDef>
         <focusTypes>
@@ -89,6 +88,7 @@
           </li>
         </offsets>
       </li>
+	  
       <li Class="CompProperties_Facility">
         <statOffsets>
           <Comfort>0.01</Comfort>
@@ -97,6 +97,7 @@
         <maxDistance>2</maxDistance>
       </li>
     </comps>
+	
     <placeWorkers>
       <li>PlaceWorker_MeditationOffsetBuildingsNear</li>
       <li>PlaceWorker_ShowFacilitiesConnections</li>
@@ -107,6 +108,7 @@
     <tradeTags>
       <li>Art</li>
     </tradeTags>
+	
     <recipeMaker>
       <researchPrerequisite>ComplexClothing</researchPrerequisite>
       <recipeUsers>
