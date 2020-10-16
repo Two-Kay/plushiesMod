@@ -9,7 +9,7 @@
       <graphicClass>Graphic_Random</graphicClass>
       <texPath>Things/plushies</texPath>
     </graphicData>
-    <fillPercent>0.35</fillPercent>
+    <fillPercent>0.15</fillPercent>
     <rotatable>false</rotatable>
     <costStuffCount>20</costStuffCount>
     <stuffCategories>
