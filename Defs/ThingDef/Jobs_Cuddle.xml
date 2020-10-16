@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+<JobDef>
+    <defName>CuddlePlushie</defName>
+    <driverClass>JobDriver_ViewArt</driverClass>
+    <reportString>cuddling plushie.</reportString>
+    <joyDuration>4000</joyDuration>
+    <joyKind>Meditative</joyKind>
+  </JobDef>
+  
+  <JoyGiverDef>
+    <defName>CuddlePlushie</defName>
+    <giverClass>Plushies.JoyGiver_CuddlePlushie</giverClass>
+    <baseChance>1</baseChance>
+    <jobDef>CuddlePlushie</jobDef>
+    <joyKind>Meditative</joyKind>
+    <canDoWhileInBed>true</canDoWhileInBed>
+  </JoyGiverDef>
+  </Defs>
