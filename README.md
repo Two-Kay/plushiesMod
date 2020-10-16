@@ -24,6 +24,7 @@ A mod that adds plushies to Rimworld!
 - Sleeping in a bed with a plushie gives a "Cuddled plushie" thought (+1)
 - "Psychopath" colonists are not too excited about plushies...
 - but "Kind" colonists really like plushie cuddles and get +3!
+- Colonists can also spend their free time cuddling plushies to gain joy!
 
 ## Compatibility
 
