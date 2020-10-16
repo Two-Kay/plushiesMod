@@ -59,6 +59,9 @@ namespace Plushies
                 return;
 
             var bed = actor.CurrentBed();
+            if (bed == null)
+                return;
+
             var facilities = bed.GetComp<CompAffectedByFacilities>().LinkedFacilitiesListForReading;
             var hasPlushie = facilities.Any(thing => thing.def.defName == "Plushie");
             if (hasPlushie) {
