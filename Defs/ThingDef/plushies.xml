@@ -46,7 +46,7 @@
       <li Class="CompProperties_Art">
         <nameMaker>Namer_Plushie</nameMaker>
         <descriptionMaker>ArtDescription_Plushie</descriptionMaker>
-        <canBeEnjoyedAsArt>true</canBeEnjoyedAsArt>
+        <canBeEnjoyedAsArt>false</canBeEnjoyedAsArt>
       </li>
       <li Class="CompProperties_MeditationFocus">
         <statDef>MeditationFocusStrength</statDef>
