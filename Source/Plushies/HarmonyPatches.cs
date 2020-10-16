@@ -1,6 +1,7 @@
 using HarmonyLib;
 using RimWorld;
 using Verse;
+using Verse.AI;
 
 namespace Plushies
 {
@@ -78,6 +79,26 @@ namespace Plushies
         {
             if (extraInclude.defName == "ArtDescription_Plushie") {
                 tale = null;
+            }
+        }
+    }
+
+    [HarmonyPatch(typeof(Pawn_JobTracker))]
+    [HarmonyPatch("EndCurrentJob")]
+    class PlushieCuddleJobThoughts
+    {
+        static void Prefix(JobCondition condition, Pawn_JobTracker __instance, Pawn ___pawn)
+        {
+            JobDef jobDef = __instance.curJob != null ? __instance.curJob.def : null;
+            if (jobDef != null && jobDef.defName == "CuddlePlushie") {
+                if (condition == JobCondition.Succeeded) {
+                    var actor = ___pawn;
+                    if (actor.story.traits.HasTrait(TraitDefOf.Kind)) {
+                        actor.needs.mood.thoughts.memories.TryGainMemory(PlushiesThoughtDefOf.PlushieCuddleKind);
+                    } else {
+                        actor.needs.mood.thoughts.memories.TryGainMemory(PlushiesThoughtDefOf.PlushieCuddle);
+                    }
+                }
             }
         }
     }
