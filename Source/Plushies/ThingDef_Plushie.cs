@@ -13,7 +13,6 @@ namespace Plushies
         public override void PostLoad()
         {
             base.PostLoad();
-            Log.Message("Yayy plushie code loaded such!");
         }
     }
 }
