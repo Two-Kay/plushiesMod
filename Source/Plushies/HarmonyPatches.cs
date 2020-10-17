@@ -65,8 +65,12 @@ namespace Plushies
             if (bed == null)
                 return;
 
-            var facilities = bed.GetComp<CompAffectedByFacilities>().LinkedFacilitiesListForReading;
-            var hasPlushie = facilities.Any(thing => thing.def.defName == "Plushie");
+            // This can be null in the case of a sleeping spot
+            var comp = bed.GetComp<CompAffectedByFacilities>();
+            if (comp == null)
+                return;
+
+            var hasPlushie = comp.LinkedFacilitiesListForReading.Any(thing => thing.def.defName == "Plushie");
             if (hasPlushie) {
                 if (actor.story != null && actor.story.traits != null && actor.story.traits.HasTrait(TraitDefOf.Kind)) {
                     actor.needs.mood.thoughts.memories.TryGainMemory(PlushiesThoughtDefOf.PlushieCuddleKind);
