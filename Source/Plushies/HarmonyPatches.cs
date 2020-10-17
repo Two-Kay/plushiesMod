@@ -55,7 +55,10 @@ namespace Plushies
     {
         static void Postfix(Pawn actor)
         {
-            if (actor.needs.mood == null)
+            // These are here since it seems hard to figure out what properties in Rimworld
+            // are actually nullable
+            if (actor.needs == null || actor.needs.mood == null || actor.needs.mood.thoughts == null || 
+                actor.needs.mood.thoughts.memories == null)
                 return;
 
             var bed = actor.CurrentBed();
@@ -65,7 +68,7 @@ namespace Plushies
             var facilities = bed.GetComp<CompAffectedByFacilities>().LinkedFacilitiesListForReading;
             var hasPlushie = facilities.Any(thing => thing.def.defName == "Plushie");
             if (hasPlushie) {
-                if (actor.story.traits.HasTrait(TraitDefOf.Kind)) {
+                if (actor.story != null && actor.story.traits != null && actor.story.traits.HasTrait(TraitDefOf.Kind)) {
                     actor.needs.mood.thoughts.memories.TryGainMemory(PlushiesThoughtDefOf.PlushieCuddleKind);
                 } else {
                     actor.needs.mood.thoughts.memories.TryGainMemory(PlushiesThoughtDefOf.PlushieCuddle);
