@@ -118,6 +118,7 @@
       <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
       <skillRequirements>
         <Crafting>4</Crafting>
+		<Artistic>1</Artistic>
       </skillRequirements>
       <workSkill>Artistic</workSkill>
       <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
