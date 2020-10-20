@@ -70,7 +70,8 @@ namespace Plushies
             if (comp == null)
                 return;
 
-            var hasPlushie = comp.LinkedFacilitiesListForReading.Any(thing => thing.def.defName == "Plushie");
+            //var hasPlushie = comp.LinkedFacilitiesListForReading.Any(thing => thing.def.defName == "Plushie");
+            var hasPlushie = comp.LinkedFacilitiesListForReading.Any(thing => thing.def.defName.StartsWith("Plushie"));
             if (hasPlushie) {
                 if (actor.story != null && actor.story.traits != null && actor.story.traits.HasTrait(TraitDefOf.Kind)) {
                     actor.needs.mood.thoughts.memories.TryGainMemory(PlushiesThoughtDefOf.PlushieCuddleKind);
