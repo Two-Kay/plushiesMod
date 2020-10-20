@@ -30,7 +30,8 @@ namespace Plushies
 						Log.Error("No CompArt on thing being considered for viewing: " + thing, false);
 						return false;
 					}
-					if (thing.def.defName != "Plushie")
+					//if (thing.def.defName != "Plushie")
+					if (thing.def.defName.StartsWith("Plushie") == false)
 					{
 						return false;
 					}
