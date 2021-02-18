@@ -1,12 +1,12 @@
 <p align="center">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Boneka_rajut_di_Kawagoe%2C_Saitama%3B_Mei_2008.jpg/640px-Boneka_rajut_di_Kawagoe%2C_Saitama%3B_Mei_2008.jpg" alt="Plushies" />
+    <img src="https://steamuserimages-a.akamaihd.net/ugc/1648839814002163309/364DFD2C42A908873D1D10D52EADF3EBCC82E83E/" alt="Plushies" />
 </p>
 
 <p align="center">
 	<a href="https://github.com/Two-Kay/plushiesMod/releases/">
 		<img src="https://img.shields.io/badge/release-1.0.1-4BC51D.svg?style=flat" alt="v1.0.1" />
   </a>
-  <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=todo">
+  <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2259582816">
     <img src="https://img.shields.io/badge/RimWorld-1.2-purple.svg?longCache=true&style=plastic)" alt="Compatible Rimworld 1.2" />
   </a>
 </p>
