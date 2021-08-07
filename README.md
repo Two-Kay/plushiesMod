@@ -29,3 +29,9 @@ A mod that adds plushies to Rimworld!
 ## Compatibility
 
 Plushies are patched in as linkables for anything with "Bed" in the defName, so it should work with mods like Vanilla Furniture Expanded.
+
+## Development
+
+Put the repository in your `RimWorld/Mods` folder. The assembly references in `Plushies.csproj` are relative paths that expect the mod to be located here. On Windows+Steam the mods folder will be at `C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods`. The mod will be listed in the Rimworld UI with a folder icon next to it (unlike the steam workshop versions which have a steam icon).
+
+For developing in Visual Studio Code: If you open the `Source/Plushies` folder, it should autodetect that it's a C# project and download the necessary plugins. You can then run `dotnet build` in a terminal to build the Rimworld 1.3 assembly for the mod.
