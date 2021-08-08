@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <MemeDef>
+    <defName>Fluffiness</defName>
+    <label>Fluffiness</label>
+    <description>Our people deeply appreciate that which is cute and soft.</description>
+    <iconPath>UI/Memes/Fluffiness</iconPath>
+    <allowDuringTutorial>true</allowDuringTutorial>
+    <groupDef>Misc</groupDef>
+    <impact>1</impact>
+    <renderOrder>999</renderOrder>
+    <generalRules>
+      <rulesStrings>
+        <li>memeAdjective->free</li>
+        <li>memeAdjective->open</li>
+        <li>memeAdjective->liberal</li>
+        <li>memeConcept->self</li>
+        <li>memeConcept->independence</li>
+        <li>memeConcept->freedom</li>
+      </rulesStrings>
+    </generalRules>
+    <descriptionMaker>
+      <rules>
+        <rulesStrings>
+          <!-- theist myth -->
+          <li>creation(tag=meme_Individualist)        ->[deity0_name] fashioned every man and woman personally. Each one is a unique and precious artwork by [deity0_possessive] divine hand.</li>
+          <li>episode(uses=1,tag=meme_Individualist)  ->[deity0_name] said to all, "Each and every one of you is a unique and holy being formed in my image."</li>
+          <!-- theist founder -->
+          <li>intro(tag=meme_Individualist)           ->[deity0_name] spoke to [memberNamePlural] [revelationAdverb], guiding each to travel to the [place_summary] [place_name] where their unique gifts would shine.</li>
+          <li>conflict(tag=meme_Individualist)        ->The [foeLeader] forced the [memberNamePlural] to wear uniforms and work in [foeLeader_possessive] [place_community].</li>
+          <li>founderJoin(tag=meme_Individualist)     ->A [place_job] named [founderName] was blessed by [deity0_name] and gained miraculous knowledge of the unique power of each and every [memberName]. [founder_pronoun] said to each one what they needed to become their best self.</li>
+          <li>victory(tag=meme_Individualist)         ->The [memberNamePlural] gathered in a secret conference with many of the [foeSoldiers]. They all learned to see the value in each other and abandon the [foeLeader].</li>
+          <!-- ideological founder -->
+          <li>setup(tag=meme_Individualist)           ->Oppressed by distant rulers who demanded uniform obedience from the people, [founderName] created a rebel movement that smashed the state and built a new land of liberty in its place.</li>
+          <li>story(uses=1,tag=meme_Individualist)    ->[founderName] broke every social rule the oppressors tried to enforce, just to show that [founder_pronoun] could.</li>
+          <!-- ideological lesson -->
+          <li>lessonIntro(tag=meme_Individualist)         ->My family, my clan, my team - they all tried to keep a shroud over my eyes to stop me from seeing a simple fact:</li>
+          <li>lesson(tag=meme_Individualist)              ->each person is unique and valuable and must walk his or her own path</li>
+          <li>lessonReinforcement(tag=meme_Individualist) ->But that was only my path - What will yours be?</li>
+          <!-- archist -->
+          <li>archistBasis(tag=meme_Individualist)    ->Archotechs stand as sovereign consciousnesses, and recognize and judge each of us individually the same way.</li>
+          <li>archistFact(tag=meme_Individualist)     ->At death, the archotechs examine the unique morality of each person.</li>
+          <li>archistFact(tag=meme_Individualist)     ->Archotechs notice the one who wields their relics, such as the [relic1_name].</li>
+          <li>archistProphecy(tag=meme_Individualist) ->[inTheEnd], the archotechs will depart. They will bring with them the ones they have noticed, and leave the rest behind to dissolve in the universe's eternal entropy.</li>
+          <!-- animist -->
+          <li>animistBasis(tag=meme_Individualist)    ->Before everything, there was a pantheon of spirits, each unique. These came together in conference to create the world.</li>
+          <li>animistFact(tag=meme_Individualist)     ->Every spirit lends its unique nature to our world, and they expect us to do the same.</li>
+        </rulesStrings>
+      </rules>
+    </descriptionMaker>
+    <symbolPacks>
+      <li>
+        <theme>freedom</theme>
+        <adjective>freedomist</adjective>
+        <member>freeist</member>
+      </li>
+      <li>
+        <ideoName>Libertism</ideoName>
+        <theme>liberty</theme>
+        <adjective>libertine</adjective>
+        <member>libertor</member>
+      </li>
+      <li>
+        <ideoName>Independency</ideoName>
+        <theme>independence</theme>
+        <adjective>independent</adjective>
+        <member>independent</member>
+      </li>
+      <li>
+        <ideoName>Autonomism</ideoName>
+        <theme>autonomy</theme>
+        <adjective>autonomist</adjective>
+        <member>autonomor</member>
+      </li>
+    </symbolPacks>
+    <styleItemTags>
+      <li>
+        <tag>Wild</tag>
+        <baseWeight>1</baseWeight>
+        <weightFactor>1.1</weightFactor>
+      </li>
+    </styleItemTags>
+  </MemeDef>
+</Defs>
