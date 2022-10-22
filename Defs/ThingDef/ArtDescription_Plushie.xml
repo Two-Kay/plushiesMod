@@ -34,7 +34,7 @@
 		<li>pose_element->You can see it [position_verb]!</li>
 		<li>pose_element->You can clearly see it [position_verb].</li>
 		<li>pose_element->You can spot how it [position_verb]s.</li>
-		<li>pose_element->It's waving its arms.</li>
+		<!-- <li>pose_element->It's waving its arms.</li> -->
 		<li>pose_element->It's nodding with its head.</li>
 		<li>pose_element->You can see a [beauty_adjective] pose.</li>
 		<li>pose_element->It makes a [beauty_adjective] pose!</li>
@@ -49,10 +49,10 @@
 		<li>pose_element->You notice how it's [facial_expression] at you.</li>
 		<li>body_element->It has a [body_part] that resembles the one of [PAWN_nameFull].</li>
 		<li>body_element->It has [body_part_plural] that resemble the one of [PAWN_nameFull].</li>
-		<li>body_element->It has a [body_part] that resembles the one of a [Animal].</li>
-		<li>body_element->It has [body_part_plural] that resemble the one of [Animal]s.</li>
-		<li>body_element->It has a [Animal]'s [body_part] which makes for a [beauty_adjective] composition.</li>
-		<li>body_element->It has a [Animal]'s [body_part] that makes for a [beauty_adjective] combination.</li>
+		<!-- <li>body_element->It has a [body_part] that resembles the one of a [Animal].</li>
+		<li>body_element->It has [body_part_plural] that resemble the one of [Animal]s.</li> -->
+		<!-- <li>body_element->It has a [Animal]'s [body_part] which makes for a [beauty_adjective] composition.</li>
+		<li>body_element->It has a [Animal]'s [body_part] that makes for a [beauty_adjective] combination.</li> -->
 		<li>body_element->It has [Animal]'s [body_part_plural] that makes for a [beauty_adjective] composition.</li>
 		<li>body_element->Its [body_part] reminds one of a [Vegetable].</li>
 		<li>body_element->It has [Animal]'s [body_part_plural] which makes for a [beauty_adjective] combination.</li>
@@ -89,15 +89,15 @@
 		
 		<!--=== Moods ===-->
 		
-		<li>positive_mood->happy</li>
-		<li>positive_mood->joyful</li>
+		<!-- <li>positive_mood->happy</li>
+		<li>positive_mood->joyful</li> -->
 		<li>positive_mood->content</li>
 		<li>positive_mood->delighted</li>
 		
 		<li>neutral_mood->sleepy</li>
-		<li>neutral_mood->bored</li>
+		<!-- <li>neutral_mood->bored</li>
 		<li>neutral_mood->confused</li>
-		<li>neutral_mood->cranky</li>
+		<li>neutral_mood->cranky</li> -->
 		
 		<li>moods->[neutral_mood]</li>
 		<li>moods->[positive_mood]</li>
@@ -136,11 +136,11 @@
 		
 		<!--=== Plushie colors ===-->
 		
-		<li>color->red</li>
-		<li>color->yellow</li>
+		<!-- <li>color->red</li>
+		<li>color->yellow</li> -->
 		<li>color->blue</li>
 		<li>color->white</li>
-		<li>color->black</li>
+		<!-- <li>color->black</li>
 		<li>color->green</li>
 		<li>color->teal</li>
 		<li>color->purple</li>
@@ -150,7 +150,7 @@
 		<li>color->violet</li>
 		<li>color->turquoise</li>
 		<li>color->silver</li>
-		<li>color->gold</li>
+		<li>color->gold</li> -->
 		
 		<!--=== Body parts ===-->
 		
@@ -212,7 +212,7 @@
 		
 		<!--=== Animal plushies ===-->
 		
-		<li>animal->a chicken</li>
+		<!-- <li>animal->a chicken</li>
 		<li>animal->a pheasant</li>
 		<li>animal->a squirrel</li>
 		<li>animal->a snake</li>
@@ -248,9 +248,9 @@
 		<li>animal->a sheep</li>
 		<li>animal->a spelopede</li>
 		<li>animal->a megascarab</li>
-		<li>animal->a monkey</li>
+		<li>animal->a monkey</li> -->
 		<li>animal->a [small_adjective] thrumbo</li>
-		<li>animal->a [small_adjective] megasloth</li>
+		<!-- <li>animal->a [small_adjective] megasloth</li>
 		<li>animal->a racoon</li>
 		<li>animal->a deer</li>
 		<li>animal->a wolf</li>
@@ -258,7 +258,7 @@
 		<li>animal->a [small_adjective] whale</li>
 		<li>animal->a [small_adjective] orca</li>
 		<li>animal->a dolphin</li>
-		<li>animal->a fish</li>
+		<li>animal->a fish</li> -->
 		
 		<!--=== Small adjectives ===-->
 		
