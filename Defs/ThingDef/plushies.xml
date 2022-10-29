@@ -112,14 +112,9 @@
     <recipeMaker>
       <researchPrerequisite>ComplexClothing</researchPrerequisite>
       <recipeUsers>
-        <li>ElectricTailoringBench</li>
-        <li>HandTailoringBench</li>
+        <li>TableSculpting</li>
       </recipeUsers>
       <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-      <skillRequirements>
-        <Crafting>4</Crafting>
-		<Artistic>1</Artistic>
-      </skillRequirements>
       <workSkill>Artistic</workSkill>
       <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
       <effectWorking>Tailor</effectWorking>
@@ -167,6 +162,52 @@
         <label>cuddled the cutest plushie</label>
         <description>How fluffy and wholesome!</description>
         <baseMoodEffect>3</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>PlushieCuddleChild</defName>
+    <durationDays>1</durationDays>
+    <stackLimit>1</stackLimit>
+    <nullifyingTraits>
+      <li>Psychopath</li>
+    </nullifyingTraits>
+    <stages>
+      <li>
+        <label>cuddled soft toy</label>
+        <description>I feel extra snug and safe.</description>
+        <baseMoodEffect>2</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>PlushieCuddleChildKind</defName>
+    <durationDays>1</durationDays>
+    <stackLimit>1</stackLimit>
+    <requiredTraits>
+      <li>Kind</li>
+    </requiredTraits>
+    <stages>
+      <li>
+        <label>cuddled favorite toy</label>
+        <description>I can take on the world with my fluffy best friend!</description>
+        <baseMoodEffect>4</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>PlushieCuddleBaby</defName>
+    <workerClass>Plushies.ThoughtWorker_PlushieBaby</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <developmentalStageFilter>Baby</developmentalStageFilter>
+    <stages>
+      <li>
+        <label>Nearby plushie</label>
+        <description>What is this fluffy creature?</description>
+        <baseMoodEffect>1</baseMoodEffect>
       </li>
     </stages>
   </ThoughtDef>
