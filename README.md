@@ -1,7 +1,6 @@
 <p align="center">
     <img src="https://steamuserimages-a.akamaihd.net/ugc/1648839814002163309/364DFD2C42A908873D1D10D52EADF3EBCC82E83E/" alt="Plushies" />
 </p>
-f
 <p align="center">
 	<a href="https://github.com/Two-Kay/plushiesMod/releases/">
 		<img src="https://img.shields.io/badge/release-1.0.5-4BC51D.svg?style=flat" alt="v1.0.5" />
