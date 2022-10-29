@@ -42,6 +42,7 @@
     <Compile Include="JoyGiver_CuddlePlushie.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ThingDef_Plushie.cs" />
+    <Compile Include="ThoughtWorker_PlushieBaby.cs" />
     <Compile Include="HarmonyPatches.cs" />
   </ItemGroup>
   <ItemGroup>

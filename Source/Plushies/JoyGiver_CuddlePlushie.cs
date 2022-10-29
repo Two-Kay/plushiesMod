@@ -27,7 +27,7 @@ namespace Plushies
 					CompArt compArt = thing.TryGetComp<CompArt>();
 					if (compArt == null)
 					{
-						Log.Error("No CompArt on thing being considered for viewing: " + thing, false);
+						Log.Error("No CompArt on thing being considered for viewing: " + thing);
 						return false;
 					}
 					//if (thing.def.defName != "Plushie")
