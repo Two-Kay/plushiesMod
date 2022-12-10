@@ -77,32 +77,24 @@ namespace Plushies
     {
         static void Postfix(Pawn actor)
         {
-            Log.Message("BedThoughtsPatch");
             // These are here since it seems hard to figure out what properties in Rimworld
             // are actually nullable
             if (actor.needs == null || actor.needs.mood == null || actor.needs.mood.thoughts == null || 
                 actor.needs.mood.thoughts.memories == null)
                 return;
 
-            Log.Message("Has memories");
-
             var bed = actor.CurrentBed();
             if (bed == null)
                 return;
-
-            Log.Message("Has bed");
 
             // This can be null in the case of a sleeping spot
             var comp = bed.GetComp<CompAffectedByFacilities>();
             if (comp == null)
                 return;
 
-            Log.Message("Has comp");
-
             //var hasPlushie = comp.LinkedFacilitiesListForReading.Any(thing => thing.def.defName == "Plushie");
             var hasPlushie = comp.LinkedFacilitiesListForReading.Any(thing => thing.def.defName.StartsWith("Plushie"));
             if (hasPlushie) {
-                Log.Message("Has plushie");
                 if (actor.story != null && actor.story.traits != null && actor.story.traits.HasTrait(TraitDefOf.Kind)) {
                     if (!actor.ageTracker.Adult) {
                         actor.needs.mood.thoughts.memories.TryGainMemory(PlushiesThoughtDefOf.PlushieCuddleChildKind);
