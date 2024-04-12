@@ -2,6 +2,8 @@ using HarmonyLib;
 using RimWorld;
 using Verse;
 using Verse.AI;
+using System.Collections.Generic;
+using Verse.Grammar;
 
 namespace Plushies
 {
@@ -114,6 +116,7 @@ namespace Plushies
 
     [HarmonyPatch(typeof(TaleTextGenerator))]
     [HarmonyPatch("GenerateTextFromTale")]
+    [HarmonyPatch(new[] { typeof(TextGenerationPurpose), typeof(Tale), typeof(int), typeof(RulePackDef), typeof(List<Rule>), typeof(Dictionary<string, string>) })]
     class RemoveTaleFromPlushies
     {
         static void Prefix(ref Tale tale, RulePackDef extraInclude)
