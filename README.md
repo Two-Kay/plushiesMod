@@ -3,7 +3,7 @@
 </p>
 <p align="center">
 	<a href="https://github.com/Two-Kay/plushiesMod/releases/">
-		<img src="https://img.shields.io/badge/release-1.0.8-4BC51D.svg?style=flat" alt="v1.0.8" />
+		<img src="https://img.shields.io/badge/release-1.0.9-4BC51D.svg?style=flat" alt="v1.0.9" />
   </a>
   <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2259582816">
     <img src="https://img.shields.io/badge/RimWorld-1.2/1.3/1.4/1.5/1.6/1.7-purple.svg?longCache=true&style=plastic)" alt="Compatible Rimworld 1.2-1.7" />
